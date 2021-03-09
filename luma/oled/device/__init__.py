@@ -91,6 +91,4 @@ class sh1106(device):
 
         image_data = image.getdata()
 
-        print(type(image))
-        print(type(image_data))
         image.show()
